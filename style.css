@@ -2,13 +2,32 @@
 body {
     background: #fff;
     color: #333;
-    font-family: Lato, sans-serif;
+    font-family: Lato , sans-serif;
+    margin: 0;
   }
-  .container {
-    display: block;
-    width: 400px;
-    margin: 100px auto 0;
-  }
+  .container{
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff5945, #002765);
+    padding: 10px;
+}
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.todo-app h2{
+    color: #002765;
+    /* display: flex; */
+    align-items: center;
+    margin-bottom: 20px;
+}
+.todo-app h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
   ul {
     margin: 0;
     padding: 0;
